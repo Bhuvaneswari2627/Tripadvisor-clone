@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripadvisor Clone</title>
+    <!--Google style sheet for fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+    <!--My Style Sheet-->
+    <link rel="stylesheet" href="style.css">
+    <!--Font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo"> <img src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_logomark.svg"
+                alt="Tripadvisor Logo" width="60">
+            <h2>Tripadvisor</h2>
+        </div>
+        <!-- Hidden Navbar -->
+            <div class="nav-popup">
+            <p>Hotels</p>
+            <p>Things to Do</p>
+            <P>Restaurants</P>
+            <p> Forums</p>
+        </div>
+        <div class="nav-links">
+            <p>Discover</p>
+            <p>Trips</p>
+            <p>Review</p>
+            <p>More</p>
+        </div>
+        <div class="nav-actions">
+            <i class="fa-solid fa-globe"></i>
+            <span class="currency">INR</span>
+            <button class="sign-in">Sign in</button>
+        </div>
+        
+
+    </div>
+    <!-- Title -->
+    <div class="title">
+        <h1>Where to?</h1>
+
+        <!-- MENU -->
+        <div class="menu-options">
+            <div>Search All</div>
+            <div>Hotels</div>
+            <div>Things to Do</div>
+            <div>Restaurants</div>
+        </div>
+
+        <!-- SEARCH BOX -->
+        <div class="search-box">
+            <span class="search-icon"><i class="fa-solid fa-magnifying-glass search-icon"></i></span>
+            <input type="text" placeholder="Places to go, things to do, hotels...">
+            <button class="search-btn">Search</button>
+        </div>
+    </div>
+    <!-- sections -->
+    <div class="sections">
+        <div class="section">
+            <h2 class="section-title">Find things to do by interest</h2>
+            <p class="section-sub">Whatever you're into, we've got it</p>
+        </div>
+        <div class="cards">
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="images/Outdoor.jpg" alt="Outdoors">
+                <span class="card-text">Outdoors</span>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="images/Food.jpg" alt="Food">
+                <span class="card-text">Food</span>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="images/culture.jpg" alt="Culture">
+                <span class="card-text">Culture</span>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card">
+                <img src="images/water.jpg" alt="Water">
+                <span class="card-text">Water</span>
+            </div>
+        </div>
+    </div>
+    <!-- Section1 -->
+    <div class="sections">
+        <div class="section">
+            <h2 class="section-title">You might like these</h2>
+            <p class="section-sub">More things to do in Chennai (Madras)</p>
+        </div>
+        <div class="tour-cards">
+
+            <!-- Card 1 -->
+            <div class="tour-card">
+                <div class="img-box">
+                    <img src="images/ch-image1.jpg" alt="">
+                    <span class="heart">♡</span>
+                </div>
+                <h3 class="tour-title">Georgetown heritage walking tour in Chennai about the founding of Chennai</h3>
+                <div class="rating">
+                    <span>5.0</span>
+                    <span class="dots">🟢🟢🟢🟢🟢</span>
+                    <span>(2)</span>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="tour-card">
+                <div class="img-box">
+                    <img src="images/ch-image2.jpg" alt="">
+                    <span class="heart">♡</span>
+                </div>
+
+                <span class="tag">Likely To Sell Out</span>
+
+                <h3 class="tour-title">Chennai, Guided Birding And Birding Photo Trip With Spot Scope, 2 to 3 Hours</h3>
+                <div class="rating">
+                    <span>4.9</span>
+                    <span class="dots">🟢🟢🟢🟢🟢</span>
+                    <span>(651)</span>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="tour-card">
+                <div class="img-box">
+                    <img src="images/ch-image3.jpg" alt="">
+                    <span class="heart">♡</span>
+                </div>
+                <h3 class="tour-title">Marina Beach walking tour by tourism ministry approved company</h3>
+                <div class="rating">
+                    <span>3.7</span>
+                    <span class="dots">🟢🟢🟢⚪⚪</span>
+                    <span>(3)</span>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="tour-card">
+                <div class="img-box">
+                    <img src="images/ch-image-4.jpg" alt="">
+                    <span class="heart">♡</span>
+                </div>
+                <h3 class="tour-title">Exploring Georgetown: A Heritage Walking Tour of Chennai</h3>
+                <div class="rating">
+                    <span>5.0</span>
+                    <span class="dots">🟢🟢🟢🟢🟢</span>
+                    <span>(53)</span>
+                </div>
+                <button class="arrow">➜</button>
+            </div>
+        </div>
+    </div>
+    <!-- Section2 -->
+    <div class="sections">
+        <div class="section">
+            <h2 class="section-title">Explore experiences near Chennai (Madras)</h2>
+            <p class="section-sub">Can’t-miss picks near you</p>
+        </div>
+        <div class="tour-cards">
+
+            <!-- Card 1 -->
+            <div class="tour-card">
+                <div class="img-box">
+                    <img src="images/chennai1.jpg" alt="">
+                    <span class="heart">♡</span>
+                </div>
+                <h3 class="tour-title">Mahabalipuram Private tour from Chennai by car with guide and lunch by Wonder
+                </h3>
+                <div class="rating">
+                    <span>5.0</span>
+                    <span class="dots">🟢🟢🟢🟢🟢</span>
+                    <span>(2)</span>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="tour-card">
+                <div class="img-box">
+                    <img src="images/chennai2.jpg" alt="">
+                    <span class="heart">♡</span>
+                </div>
+
+                <span class="tag">Likely To Sell Out</span>
+
+                <h3 class="tour-title">Total Chennai city tour in Private car with guide & lunch by Wonder tours</h3>
+                <div class="rating">
+                    <span>4.9</span>
+                    <span class="dots">🟢🟢🟢🟢🟢</span>
+                    <span>(651)</span>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="tour-card">
+                <div class="img-box">
+                    <img src="images/chennai4.jpg" alt="">
+                    <span class="heart">♡</span>
+                </div>
+                <h3 class="tour-title">Marina Beach walking tour by tourism ministry approved company</h3>
+                <div class="rating">
+                    <span>3.7</span>
+                    <span class="dots">🟢🟢🟢⚪⚪</span>
+                    <span>(3)</span>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="tour-card">
+                <div class="img-box">
+                    <img src="images/chennai3.jpg" alt="">
+                    <span class="heart">♡</span>
+                </div>
+                <h3 class="tour-title">Sowcarpet Street Food Walking Tour in Chennai with guide</h3>
+                <div class="rating">
+                    <span>5.0</span>
+                    <span class="dots">🟢🟢🟢🟢🟢</span>
+                    <span>(53)</span>
+                </div>
+                <button class="arrow">➜</button>
+            </div>
+        </div>
+    </div>
+    <!-- Section3 -->
+    <div class="sections">
+        <div class="section">
+            <h2 class="section-title">Big cities, big holiday cheer</h2>
+            <p class="section-sub">Eat, drink, shop, and be merry</p>
+        </div>
+        <div class="tour-cards">
+
+            <!-- Card 1 -->
+            <div class="tour-card">
+                <div class="img-box">
+                    <img src="images/Big1.jpg" alt="">
+                    <span class="heart">♡</span>
+                </div>
+                <h3 class="tour-title">Amsterdam Light Festival Canal Cruise With Unlimited Drinks</h3>
+                <div class="rating">
+                    <span>5.0</span>
+                    <span class="dots">🟢🟢🟢🟢🟢</span>
+                    <span>(2)</span>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="tour-card">
+                <div class="img-box">
+                    <img src="images/big2.jpg" alt="">
+                    <span class="heart">♡</span>
+                </div>
+                <h3 class="tour-title">Dyker Heights Brooklyn Christmas Lights Tour</h3>
+                <div class="rating">
+                    <span>4.9</span>
+                    <span class="dots">🟢🟢🟢🟢🟢</span>
+                    <span>(651)</span>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="tour-card">
+                <div class="img-box">
+                    <img src="images/big3.jpg" alt="">
+                    <span class="heart">♡</span>
+                </div>
+                <h3 class="tour-title">Chicago-Style Holiday Hike: Festive Food and Walking Tour</h3>
+                <div class="rating">
+                    <span>3.7</span>
+                    <span class="dots">🟢🟢🟢⚪⚪</span>
+                    <span>(3)</span>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="tour-card">
+                <div class="img-box">
+                    <img src="images/big4.jpg" alt="">
+                    <span class="heart">♡</span>
+                </div>
+                <h3 class="tour-title">Merry Ploughboys Irish Night Dublin Admission Ticket</h3>
+                <div class="rating">
+                    <span>5.0</span>
+                    <span class="dots">🟢🟢🟢🟢🟢</span>
+                    <span>(53)</span>
+                </div>
+                <button class="arrow">➜</button>
+            </div>
+        </div>
+    </div>
+    <!-- section4 -->
+    <div class="sections">
+        <div class="section">
+            <h2 class="section-title">Iconic places you need to see</h2>
+        </div>
+        <div class="cards">
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="images/Rome.jpg" alt="Outdoors">
+                <span class="card-text">Rome,Italy</span>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="images/pairs.jpg" alt="Food">
+                <span class="card-text">Paris,France</span>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="images/lasvegas.jpg" alt="Culture">
+                <span class="card-text">LasVegas,NV</span>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card">
+                <img src="images/iceland.jpg" alt="Water">
+                <span class="card-text">Reykjavik,Iceland</span>
+            </div>
+        </div>
+    </div>
+    <!-- Section5 -->
+    <div class="sections">
+        <div class="section">
+            <h2 class="section-title">Browse themed collections</h2>
+        </div>
+        <div class="tour-cards">
+
+            <!-- Card 1 -->
+            <div class="tour-card">
+                <div class="img-box">
+                    <img src="images/tokyo.jpg" alt="">
+                    <span class="card-text">Winter in Tokyo</span>
+                </div>
+                <p class="card-title">See what makes this place so magical at this time of year</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="tour-card">
+                <div class="img-box">
+                    <img src="images/life.jpg" alt="">
+                    <span class="card-text">Sample Copenhagen's "hygge" life</span>
+                </div>
+                <p class="card-title">Relax and get cosy the Danish way</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="tour-card">
+                <div class="img-box">
+                    <img src="images/visit.jpg" alt="">
+                    <span class="card-text">Vist the Wizarding World</span>
+                </div>
+                <p class="card-title">Tours and experiences for Potterheads</p>
+            </div>
+            <!-- Card 4 -->
+            <div class="tour-card">
+                <div class="img-box">
+                    <img src="images/brews.jpg" alt="">
+                    <span class="card-text">Bavaria's best brews</span>
+                </div>
+                <p class="card-title">Sip your way through the city</p>
+            </div>
+            <button class="arrow">➜</button>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- footer -->
+<footer class="footer">
+    <div class="footer-columns">
+      <div class="footer-column">
+        <h4>About Tripadvisor</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Resources and Policies</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Trust & Safety</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Technology</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#">Write a Review</a></li>
+          <li><a href="#">Add a Place</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Travellers' Choice</a></li>
+          <li><a href="#">GreenLeaders</a></li>
+           <li><a href="#">Help Centre</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Do Business With Us</h4>
+        <ul>
+          <li><a href="#">Owners & DMO/CVB</a></li>
+          <li><a href="#">Business Advantage</a></li>
+          <li><a href="#">Sponsored Placements</a></li>
+          <li><a href="#">Content API</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Tripadvisor Sites</h4>
+        <ul>
+          <li><a href="#">Book tours on Viator</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="legal-links">
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy & Cookies</a>
+         <a href="#">Cookie Consent</a>
+        <a href="#">Site Map</a>
+        <a href="#">Accessibility</a>
+      </div>
+      <div class="selectors">
+        <select>
+          <option>₹ INR</option>
+          <option>$ USD</option>
+        </select>
+        <select>
+          <option>India</option>
+          <option>United States</option>
+        </select>
+      </div>
+      <p>© 2025 Tripadvisor </p>
+    </div>
+  </footer>
+
+
+
+</body>
+
+</html>
